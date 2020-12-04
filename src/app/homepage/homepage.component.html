@@ -1,0 +1,18 @@
+<h1>Bvtca Login Ui Project</h1>
+
+<form [formGroup] = "inputForm">
+  <label for = "">First Name</label>
+  <input formControlName = "first" type = "text">
+
+  <label for = "">Last Name</label>
+  <input formControlName = "last" type = "text">
+
+  <label for = "">Email</label>
+  <input formControlName = "email" type = "text">
+
+  <label for = "">D.O.B.</label>
+  <input formControlName = "year" type = "number">
+
+  <button (click) = "formLoginClick()" [disabled] = "!inputForm.valid">Log In</button>
+</form>
+

@@ -1,0 +1,33 @@
+html, body {
+    font-family: 'Verdana', sans-serif;
+}
+
+button {
+    background-color: #0038ee;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    display: block;
+    margin: 10px;
+    min-width: 100px;
+    padding-top: 10px;
+    padding-right: 5px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+}
+
+button:disabled {
+    cursor: not-allowed;
+}
+
+input {
+    background-color: #333333;
+    border: #555555;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+label {
+    display: block;
+    padding: 4px;
+}
